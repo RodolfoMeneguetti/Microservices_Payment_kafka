@@ -7,8 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Product {
+public class EventFilters {
 
-    private String code;
-    private double unitValue;
+    private String orderId;
+    private String transactionId;
+
 }
