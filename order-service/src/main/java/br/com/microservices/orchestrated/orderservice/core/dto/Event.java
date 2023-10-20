@@ -1,7 +1,7 @@
 package br.com.microservices.orchestrated.orderservice.core.dto;
 
-import br.com.microservices.orchestrated.orchestratorservice.core.enums.EEventSource;
-import br.com.microservices.orchestrated.orchestratorservice.core.enums.ESagaStatus;
+import br.com.microservices.orchestrated.orderservice.core.enums.EEventSource;
+import br.com.microservices.orchestrated.orderservice.core.enums.ESagaStatus;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

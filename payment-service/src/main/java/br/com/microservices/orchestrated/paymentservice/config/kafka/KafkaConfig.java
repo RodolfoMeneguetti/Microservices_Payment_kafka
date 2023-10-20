@@ -37,10 +37,10 @@ public class KafkaConfig {
     @Value("${spring.kafka.topic.orchestrator}")
     private String orchestratorTopic;
 
-    @Value("${spring.kafka.topic.payment-validation-success}")
+    @Value("${spring.kafka.topic.payment-success}")
     private String paymentValidationSuccessTopic;
 
-    @Value("${spring.kafka.topic.payment-validation-fail}")
+    @Value("${spring.kafka.topic.payment-fail}")
     private String paymentValidationFailTopic;
 
 

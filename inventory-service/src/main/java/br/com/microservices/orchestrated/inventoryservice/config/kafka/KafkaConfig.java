@@ -36,10 +36,10 @@ public class KafkaConfig {
     @Value("${spring.kafka.topic.orchestrator}")
     private String orchestratorTopic;
 
-    @Value("${spring.kafka.topic.inventory-validation-success}")
+    @Value("${spring.kafka.topic.inventory-success}")
     private String inventorySuccessTopic;
 
-    @Value("${spring.kafka.topic.inventory-validation-fail}")
+    @Value("${spring.kafka.topic.inventory-fail}")
     private String inventoryFailTopic;
 
     // configuração geral do kafka
