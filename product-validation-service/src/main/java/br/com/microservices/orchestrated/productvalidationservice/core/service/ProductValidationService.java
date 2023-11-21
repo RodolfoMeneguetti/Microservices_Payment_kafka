@@ -69,7 +69,7 @@ public class ProductValidationService {
     private void handleSuccess(Event event) {
         event.setStatus(SUCCESS);
         event.setSource(EEventSource.valueOf(CURRENT_SOURCE));
-        addHistory(event, "Products are validated successfully");
+        addHistory(event, "Payment realized successfully!");
     }
 
     private void handleFailCurrentNotExecuted(Event event, String message) {
